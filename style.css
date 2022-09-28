@@ -1,0 +1,44 @@
+body {
+  height: 92vh;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box1 {
+  width: 700px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  transition: all 1s;
+}
+
+.box1 ul {
+  list-style: none;
+}
+
+.box1 ul li {
+  display: flex;
+
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.del:hover {
+  opacity: 0.8;
+}
+
+.add:hover {
+  opacity: 0.8;
+}
+
+ul li:nth-child(even) {
+  background-color: rgb(198, 214, 214);
+}
+
+ul li:hover {
+  transform: translate(2px);
+}
